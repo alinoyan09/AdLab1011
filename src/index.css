@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700;900&family=Playfair+Display:ital,wght@0,700;1,700&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-serif: "Playfair Display", ui-serif, Georgia, serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
+}
+
+body {
+  @apply bg-white text-[#1a1a1a] antialiased selection:bg-black selection:text-white;
+}
+
+.border-heavy {
+  @apply border-black border-2;
+}
+
+.scrolly-card-shadow {
+  box-shadow: 12px 12px 0px 0px #000000;
+}

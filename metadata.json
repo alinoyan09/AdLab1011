@@ -1,0 +1,8 @@
+{
+  "name": "AdLab101 - Reklam Haber Blogu",
+  "description": "Türkiye'nin köklü reklam stratejilerini ve dijital iletişim başarılarını scrollytelling yöntemiyle keşfeden bir blog platformu.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
